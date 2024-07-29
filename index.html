@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Store</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="#" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <nav class="header_menu">
+            <div class="burger_icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="search_box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="#" placeholder="search">
+            </div>
+            <div class="menu_icon">
+                <i class="fa-solid fa-bowl-food"></i>
+                <div class="cart_icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>0</span>
+                </div>
+            </div>
+            
+        </nav>
+    </header>
+    <!-- Cover section-->
+     <section class="cover">
+        <div class="cover_overlay">
+            <h1>Quick Bite </h1>
+            <span class="slogan">Where Taste Takes The fast Line</span>
+        </div>
+     </section>
+
+
+     <main>
+        <h2 class="section_heading">Food Menu</h2>
+        <div class="Menu_list">
+            <div class="Menu_item">
+                <img src="./images/pizza.png" alt="fooditem">
+                <h5>Pizza</h5>
+            </div>
+            <div class="Menu_item">
+                <img src="./images/burger.png" alt="fooditem">
+                <h5>Burger</h5>
+            </div>
+            <div class="Menu_item">
+                <img src="./images/HalwaPuri.png" alt="fooditem">
+                <h5>Halwa Puri</h5>
+            </div>
+            <div class="Menu_item">
+                <img src="./images/KFC.jpg" alt="fooditem">
+                <h5>KFC</h5>
+            </div>
+            <div class="Menu_item">
+                <img src="./images/Samsa.webp" alt="fooditem">
+                <h5>Samsa</h5>
+            </div>
+            <div class="Menu_item">
+                <img src="./images/Beef.png" alt="fooditem">
+                <h5>Beef Italian</h5>
+            </div>
+            <div class="Menu_item">
+                <img src="./images/softdrinks.jpg" alt="fooditem">
+                <h5>Soft Drink</h5>
+            </div>
+            <div class="Menu_item">
+                <img src="./images/coffee.jpg" alt="fooditem">
+                <h5>Coffee</h5>
+            </div>
+        </div>
+
+        <!--Card_item section-->
+
+        <h2 class="section_heading">Menu Items</h2>
+        <div class="card_list">
+            <div class="card">
+                <img src="./images/pizza.png" alt="carditem">
+                <h4 class="card_title">Pizza</h4>
+
+                <div class="card_price">
+                    <div class="price">10.50$</div>
+                    <i class="fa-solid fa-plus add-to-cart"></i>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/burger.png" alt="carditem">
+                <h4 class="card_title">Burger</h4>
+
+                <div class="card_price">
+                    <div class="price">3.50$</div>
+                    <i class="fa-solid fa-plus add-to-cart"></i>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/HalwaPuri.png" alt="carditem">
+                <h4 class="card_title">Hawa Puri</h4>
+
+                <div class="card_price">
+                    <div class="price">6.50$</div>
+                    <i class="fa-solid fa-plus add-to-cart"></i>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/KFC.jpg" alt="carditem">
+                <h4 class="card_title">KFC</h4>
+
+                <div class="card_price">
+                    <div class="price">5.23$</div>
+                    <i class="fa-solid fa-plus add-to-cart"></i>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/Samsa.webp" alt="carditem">
+                <h4 class="card_title">Samsa</h4>
+
+                <div class="card_price">
+                    <div class="price">4.20$</div>
+                    <i class="fa-solid fa-plus add-to-cart"></i>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/Beef.png" alt="carditem">
+                <h4 class="card_title">Beef Italian</h4>
+
+                <div class="card_price">
+                    <div class="price">9.70$</div>
+                        <i class="fa-solid fa-plus add-to-cart"></i>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/softdrinks.jpg" alt="carditem">
+                <h4 class="card_title">Soft Drink</h4>
+
+                <div class="card_price">
+                    <div class="price">1.50$</div>
+                    <i class="fa-solid fa-plus add-to-cart"></i>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/coffee.jpg" alt="carditem">
+                <h4 class="card_title">Coffee</h4>
+
+                <div class="card_price">
+                    <div class="price">3.25$</div>
+                    <i class="fa-solid fa-plus add-to-cart"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cart SideBar section-->
+
+        <div class="sidebar" id="sidebar">
+            <div id="sidebar_close" class="sidebar_close">
+                <i class="fa-solid fa-close"></i>
+            </div>
+                <div class="cart_menu">
+                    <h3>My cart</h3>
+                    <div class="cart_items individual-cart-item"></div>
+                </div>
+                <div class="sidebar_footer">
+                    <div class="total_amount">
+                        <h5>Total</h5>
+                        <div class="cart_total">$0.00</div>
+                    </div>
+                    <button class="checkout_btn">Checkout</button>
+                </div>
+        </div>
+     </main>
+    <script src="./app.js"></script>
+</body>
+</html>
